@@ -57,16 +57,16 @@ Caso rode sem a tag, vai rodar todos os testes
 
 ### comandos GIT
 
-```markdown
- **git init** - Na pasta do projeto
- **git add .** - Para adicionar todos os arquivos
- **git add README.md** - Para adicionar o arquivo Readme.me
- **git commit -m "message"** - Criar comentário do commit
- **git config --global --edit** - Para editar o seu usuario e para configurar o repositório
- **git push origin dev** - Enviar as mudanças para o repositório
- **git checkout master** - Mudar para outro ganho do repositório
- **git fetch** - Atualizar os repositórios locais com o servidor
- **git pull** - Pegar as mudanças dos outros desenvolvedores
+```
+`git init` - Na pasta do projeto
+`git add .` - Para adicionar todos os arquivos
+ `git add README.md` - Para adicionar o arquivo Readme.me
+ `git commit -m "message"` - Criar comentário do commit
+ `git config --global --edit` - Para editar o seu usuario e para configurar o repositório
+ `git push origin dev` - Enviar as mudanças para o repositório
+ `git checkout master` - Mudar para outro ganho do repositório
+ `git fetch` - Atualizar os repositórios locais com o servidor
+ `git pull` - Pegar as mudanças dos outros desenvolvedores
 ```
 
 ### Flutter
