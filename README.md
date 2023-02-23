@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-# Testes Automatizados em APP em Flutter
+# Testes Automatizados de aplicativo em Flutter
 
 Este projeto tem o intuito de aprender a configurar e desenvolver automação de APP em Flutter.
 
@@ -10,7 +10,7 @@ Estas instruções fornecerão uma cópia do projeto em execução em sua máqui
 ### Pré requisitos
 
 * Ter inicializado e configurado um repositório git
-* Caso prefira utilizar um device simulado, ter instalado [Android Studio](https://developer.android.com/studio)
+* Caso prefira utilizar um device virtual, ter instalado [Android Studio](https://developer.android.com/studio)
 * Baixar [Flutter SDK](https://docs.flutter.dev/get-started/install)
 
 ### Instalando
@@ -27,13 +27,13 @@ Caso queira começar um novo projeto no Android Studio:
 
 Caso opte por clonar este ou algum projeto, utilizar comando:
 
-* Descompactar e instalar arquivo do flutter sdk
-* Adicionar a ferramento do flutter na sua variavel path com o comando 
+* Descompactar e instalar arquivo do **flutter sdk**
+* Adicionar a ferramenta do flutter na sua variavel path com o comando 
 ```sh
  export PATH="$PATH:`pwd`/flutter/bin"
 ```
 Este comando define sua variável PATH apenas para a janela do terminal atual. Para adicionar permanentemente o Flutter ao seu caminho, consulte [Update your path](https://docs.flutter.dev/get-started/install/macos#update-your-path)
-*Clonar o projeto exemplo
+* Clonar o projeto exemplo
 ```sh
 git clone https://github.com/gguilhermesantos/Testes_Automatizados_Flutter
 ```
@@ -41,13 +41,16 @@ git clone https://github.com/gguilhermesantos/Testes_Automatizados_Flutter
 ## Gerando um dispositivo (Android Studio)
 
 * Na tela de boas-vindas do Android Studio, selecione **More Actions > Virtual Device Manager**
-* Depois de abrir um projeto, selecione **View > Tool Windows > Device Manager** na barra de menus principal e, em seguida, clique em **Create device**
+* Depois de abrir um projeto, selecione **View > Tool Windows > Device Manager** na barra de menus principal
+* clique em **Create device**
 
 ## Rodando testes
 
 Para rodar testes:
 * No terminal, na pasta do projeto, rodar o comando:
-```flutter drive --driver=test_driver/integration_test_driver.dart --target=integration_test/gherkin_suite_test.dart --dart-define=TAGS="@Login_3"```
+```sh
+flutter drive --driver=test_driver/integration_test_driver.dart --target=integration_test/gherkin_suite_test.dart --dart-define=TAGS="@Login_3"
+```
 Caso rode sem a tag, vai rodar todos os testes
 
 ## Comandos úteis
@@ -55,15 +58,15 @@ Caso rode sem a tag, vai rodar todos os testes
 ### comandos GIT
 
 ```markdown
- `git init` - Na pasta do projeto
- `git add .` - Para adicionar todos os arquivos
- `git add README.md` - Para adicionar o arquivo Readme.me
- `git commit -m "message"` - Criar comentário do commit
- `git config --global --edit` - Para editar o seu usuario e para configurar o repositório
- `git push origin dev` - Enviar as mudanças para o repositório
- `git checkout master` - Mudar para outro ganho do repositório
- `git fetch` - Atualizar os repositórios locais com o servidor
- `git pull` - Pegar as mudanças dos outros desenvolvedores
+ **git init** - Na pasta do projeto
+ **git add .** - Para adicionar todos os arquivos
+ **git add README.md** - Para adicionar o arquivo Readme.me
+ **git commit -m "message"** - Criar comentário do commit
+ **git config --global --edit** - Para editar o seu usuario e para configurar o repositório
+ **git push origin dev** - Enviar as mudanças para o repositório
+ **git checkout master** - Mudar para outro ganho do repositório
+ **git fetch** - Atualizar os repositórios locais com o servidor
+ **git pull** - Pegar as mudanças dos outros desenvolvedores
 ```
 
 ### Flutter
@@ -76,14 +79,12 @@ flutter doctor
 * No Android Studio, existe no canto direito uma aba chamada **Flutter Inspector** onde é possivel ver os widget do seu app para criar ações com base nele.
 
 * Para preparar para executar e testar seu aplicativo Flutter em um dispositivo Android
-- Ative as **opções do desenvolvedor** e a **depuração USB** no seu dispositivo
-- Somente Windows: instale o driver USB do Google
-- Usando um cabo USB, conecte o telefone ao computador. Se solicitado em seu dispositivo, autorize seu computador a acessar seu dispositivo.
-- No terminal, execute o comando `flutter devices` para verificar se o Flutter reconhece seu dispositivo Android conectado
+ - Ative as **opções do desenvolvedor** e a **depuração USB** no seu dispositivo
+ - Somente Windows: instale o driver USB do Google
+ - Usando um cabo USB, conecte o telefone ao computador. Se solicitado em seu dispositivo, autorize seu computador a acessar seu dispositivo.
+ - No terminal, execute o comando `flutter devices` para verificar se o Flutter reconhece seu dispositivo Android conectado
 
 * Pastas importantes para automação: `test_driver_exemplo` (vem da pasta flutter test e flutter driver) e `integration_test_exemplo`
-
-* Para dúvidas: [Clique aqui](https://flutter.dev/docs/get-started/install)
 
 * No arquivo pubspec.yaml acrescentar libs:
 ```
@@ -92,6 +93,8 @@ dev_dependencies:
         sdk: flutter
     flutter_gherkin: ^3.0.0-rc.9
 ```
+
+* Para dúvidas: [Clique aqui](https://flutter.dev/docs/get-started/install)
 
 #### slidy
 Gerenciador de pacotes CLI e gerador de modelos. Basicamente arquivos .g são gerados com o comando slidy run
