@@ -1,0 +1,194 @@
+[
+  {
+    "description": "",
+    "id": "para verificar o fluxo de login no app",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Para verificar o fluxo de Login no app",
+    "uri": "",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ],
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "id": "para verificar o fluxo de login no app;fazendo login e logout no app",
+        "name": "Fazendo login e Logout no app",
+        "description": "",
+        "line": 1,
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          },
+          {
+            "line": 1,
+            "name": "@Login_1"
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o app inicializa",
+            "line": 1,
+            "match": {
+              "location": ":1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9172000000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "o login foi preenchido com \"guilherme.silva@dextra-sw.com\" e \"Dextr@123\"",
+            "line": 1,
+            "match": {
+              "location": ":1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104296000000
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "saio do app",
+            "line": 1,
+            "match": {
+              "location": ":1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2466000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "id": "para verificar o fluxo de login no app;fazendo login com email errado",
+        "name": "Fazendo login com email errado",
+        "description": "",
+        "line": 1,
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          },
+          {
+            "line": 1,
+            "name": "@Login_2"
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o app inicializa",
+            "line": 1,
+            "match": {
+              "location": ":1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2687000000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "\"email\" esta errado com \"teste@teste.com\"",
+            "line": 1,
+            "match": {
+              "location": ":1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2546000000
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "verifico \"mensagemLoginIncorreto\"",
+            "line": 1,
+            "match": {
+              "location": ":1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "id": "para verificar o fluxo de login no app;fazendo login com senha errada",
+        "name": "Fazendo login com senha errada",
+        "description": "",
+        "line": 1,
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          },
+          {
+            "line": 1,
+            "name": "@Login_3"
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o app inicializa",
+            "line": 1,
+            "match": {
+              "location": ":1"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10129000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "type": "scenario",
+        "id": "para verificar o fluxo de login no app;fazendo login acessando esqueci minha senha",
+        "name": "Fazendo login acessando Esqueci minha senha",
+        "description": "",
+        "line": 1,
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          },
+          {
+            "line": 1,
+            "name": "@Login_4"
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o app inicializa",
+            "line": 1,
+            "match": {
+              "location": ":1"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10118000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
