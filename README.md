@@ -142,7 +142,7 @@ Caso não funcione o push opte por esse metodo: [Clique aqui](https://www.doacti
 git remote set-url origin https://{{TOKEN}}@github.com/gguilhermesantos/Testes_Automatizados_Flutter
 git push -u origin master
 ```
-###Links úteis
+### Links úteis
 [Introdução ao Integration Test](https://docs.flutter.dev/cookbook/testing/integration/introduction)
 [Introdução ao Flutter driver](https://api.flutter.dev/flutter/flutter_driver/FlutterDriver-class.html)
 [Vídeo sobre automação com Flutter](https://www.youtube.com/watch?v=GsxAtdLSjRs)
@@ -150,7 +150,7 @@ git push -u origin master
 [Como utilizar Gherkin no Flutter](https://pub.dev/packages/flutter_gherkin)
 [Biblioteca do Flutter driver](https://api.flutter.dev/flutter/flutter_driver/flutter_driver-library.html)
 
-###Tags para commit
+### Tags para commit
 Lista de tags e seus significados para commits:
 
 * **feat:** São quaisquer adições ao código. Enquanto elas podem alterar parte do código já existente, o foco dela é a implementação de features novas ao sistema.
