@@ -143,14 +143,12 @@ git remote set-url origin https://{{TOKEN}}@github.com/gguilhermesantos/Testes_A
 git push -u origin master
 ```
 ### Links úteis
-```markdown
-[Introdução ao Integration Test](https://docs.flutter.dev/cookbook/testing/integration/introduction)
-[Introdução ao Flutter driver](https://api.flutter.dev/flutter/flutter_driver/FlutterDriver-class.html)
-[Vídeo sobre automação com Flutter](https://www.youtube.com/watch?v=GsxAtdLSjRs)
-[Biblioteca para automação](https://api.flutter.dev/flutter/flutter_test/CommonFinders-class.html)
-[Como utilizar Gherkin no Flutter](https://pub.dev/packages/flutter_gherkin)
-[Biblioteca do Flutter driver](https://api.flutter.dev/flutter/flutter_driver/flutter_driver-library.html)
-```
+* [Introdução ao Integration Test](https://docs.flutter.dev/cookbook/testing/integration/introduction)
+* [Introdução ao Flutter driver](https://api.flutter.dev/flutter/flutter_driver/FlutterDriver-class.html)
+* [Vídeo sobre automação com Flutter](https://www.youtube.com/watch?v=GsxAtdLSjRs)
+* [Biblioteca para automação](https://api.flutter.dev/flutter/flutter_test/CommonFinders-class.html)
+* [Como utilizar Gherkin no Flutter](https://pub.dev/packages/flutter_gherkin)
+* [Biblioteca do Flutter driver](https://api.flutter.dev/flutter/flutter_driver/flutter_driver-library.html)
 
 ### Tags para commit
 Lista de tags e seus significados para commits:
