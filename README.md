@@ -142,5 +142,33 @@ Caso não funcione o push opte por esse metodo: [Clique aqui](https://www.doacti
 git remote set-url origin https://{{TOKEN}}@github.com/gguilhermesantos/Testes_Automatizados_Flutter
 git push -u origin master
 ```
+###Links úteis
+[Introdução ao Integration Test](https://docs.flutter.dev/cookbook/testing/integration/introduction)
+[Introdução ao Flutter driver](https://api.flutter.dev/flutter/flutter_driver/FlutterDriver-class.html)
+[Vídeo sobre automação com Flutter](https://www.youtube.com/watch?v=GsxAtdLSjRs)
+[Biblioteca para automação](https://api.flutter.dev/flutter/flutter_test/CommonFinders-class.html)
+[Como utilizar Gherkin no Flutter](https://pub.dev/packages/flutter_gherkin)
+[Biblioteca do Flutter driver](https://api.flutter.dev/flutter/flutter_driver/flutter_driver-library.html)
+
+###Tags para commit
+Lista de tags e seus significados para commits:
+
+* **feat:** São quaisquer adições ao código. Enquanto elas podem alterar parte do código já existente, o foco dela é a implementação de features novas ao sistema.
+
+* **fix:** Soluciona um problema no código, ou seja, correção de bugs.
+
+* **docs:** Alteração e criação de documentação.
+
+* **refactor:** Refere-se a quaisquer mudanças no código, porém não alterem sua funcionalidade. Alteração de nome de variável ou função lógica, mas manteve a mesma funcionalidade.
+
+* **test:** É usado para identificar alterações de desenvolvimento relacionadas a testes - como refatoração de testes existentes ou adição de novos testes.
+
+* **perf:** Mudança de código que melhora o desempenho de algo.
+
+* **revert:** Reverter um commit.
+
+* **merge:** Junção de branchs.
+
+* **conflict:** Resolução de conflitos .
 
 <p align="center">(<a href="#readme-top">Voltar ao topo</a>)</p>
