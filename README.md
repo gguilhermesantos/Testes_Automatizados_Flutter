@@ -149,6 +149,8 @@ git push -u origin master
 * [Biblioteca para automação](https://api.flutter.dev/flutter/flutter_test/CommonFinders-class.html)
 * [Como utilizar Gherkin no Flutter](https://pub.dev/packages/flutter_gherkin)
 * [Biblioteca do Flutter driver](https://api.flutter.dev/flutter/flutter_driver/flutter_driver-library.html)
+* [Github útil](https://github.com/executeautomation/flutterdriver_automation)
+* [Github útil](https://github.com/ernestosbarbosa/flutter-testing)
 
 ### Tags para commit
 Lista de tags e seus significados para commits:
@@ -169,6 +171,6 @@ Lista de tags e seus significados para commits:
 
 * **merge:** Junção de branchs.
 
-* **conflict:** Resolução de conflitos .
+* **conflict:** Resolução de conflitos.
 
 <p align="center">(<a href="#readme-top">Voltar ao topo</a>)</p>
